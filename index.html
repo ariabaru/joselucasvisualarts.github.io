@@ -6,147 +6,112 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Untitled</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
-    <link rel="stylesheet" href="assets/css/sidebar-1.css">
-    <link rel="stylesheet" href="assets/css/sidebar.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body><footer class="bg-dark text-center text-white">
-  <!-- Grid container -->
-  <div class="container p-4 pb-0">
-    <!-- Section: Social media -->
-    <section class="mb-4">
-      <!-- Facebook -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-facebook-f"></i
-      ></a>
-
-      <!-- Twitter -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-twitter"></i
-      ></a>
-
-      <!-- Google -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-google"></i
-      ></a>
-
-      <!-- Instagram -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-instagram"></i
-      ></a>
-
-      <!-- Linkedin -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-linkedin-in"></i
-      ></a>
-
-      <!-- Github -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-github"></i
-      ></a>
-    </section>
-    <!-- Section: Social media -->
-  </div>
-  <!-- Grid container -->
-
-  <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2020 Copyright:
-    <a class="text-white" href="https://github.com/ahmedsharifkhan">Ahmed Sharif Khan Noor</a>
-  </div>
-  <!-- Copyright -->
-</footer><div class="wrapper">
-            <!-- Sidebar Holder -->
-            <nav id="sidebar">
-                <div class="sidebar-header">
-                    <h3>jose___lucas</h3>
-                    <strong>BS</strong>
-                </div>
-
-                <ul class="list-unstyled components">
-                    <li class="active">
-                        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">
-                            <i class="glyphicon glyphicon-home"></i>
-                            Home
-                        </a>
-                        <ul class="collapse list-unstyled" id="homeSubmenu">
-                            <li><a href="#">Home 1</a></li>
-                            <li><a href="#">Home 2</a></li>
-                            <li><a href="#">Home 3</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="glyphicon glyphicon-briefcase"></i>
-                            About
-                        </a>
-                        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">
-                            <i class="glyphicon glyphicon-duplicate"></i>
-                            Pages
-                        </a>
-                        <ul class="collapse list-unstyled" id="pageSubmenu">
-                            <li><a href="#">Page 1</a></li>
-                            <li><a href="#">Page 2</a></li>
-                            <li><a href="#">Page 3</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="glyphicon glyphicon-link"></i>
-                            Portfolio
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="glyphicon glyphicon-paperclip"></i>
-                            FAQ
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="glyphicon glyphicon-send"></i>
-                            Contact
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-
-            <!-- Page Content Holder -->
-            <div id="content">
-
-                <nav class="navbar navbar-default">
-                    <div class="container-fluid">
-
-                        <div class="navbar-header">
-                            <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
-                                <i class="glyphicon glyphicon-align-left"></i>
-                                <span></span>
-                            </button>
-                        </div>
-                    </div>
-                </nav>
-            </div>
+<body class="text-secondary">
+    <h1 class="text-start">José_______Lucas</h1><img src="assets/img/pidecu_jose_lucas_jan16_2022_bsb-2.jpg" width="600" alt="10">
+    <div>
+        <!--/*
+ * blueimp Gallery 
+ * https://github.com/blueimp/Gallery
+ *
+ * the component requires the JS and CSS 
+ * from there to work.
+ *
+ * Copyright 2013, Sebastian Tschan
+ * https://blueimp.net
+ *
+ * Licensed under the MIT license:
+ * https://opensource.org/licenses/MIT
+ *
+ */-->    <link rel="stylesheet" href="css/blueimp-gallery.css" />
+    <link rel="stylesheet" href="css/blueimp-gallery-indicator.css" />
+        <p></p>
+        <div id="links" class="links"><a href="assets/img/image1.jpg"></a>
+            <!--%LINKSLOOP%-->
+            <!--Here fotoARRAY (https://www.fotoarray.com) can insert images automatomatically-->
         </div>
+        <!--The Gallery as lightbox dialog-->
+        <div id="blueimp-gallery" class="blueimp-gallery" aria-label="image gallery" aria-modal="true" role="dialog">      <div class="slides" aria-live="polite"></div>
+      <h3 class="title"></h3>
+      <a
+        class="prev"
+        aria-controls="blueimp-gallery"
+        aria-label="previous slide"
+        aria-keyshortcuts="ArrowLeft"
+      ></a>
+      <a
+        class="next"
+        aria-controls="blueimp-gallery"
+        aria-label="next slide"
+        aria-keyshortcuts="ArrowRight"
+      ></a>
+      <a
+        class="close"
+        aria-controls="blueimp-gallery"
+        aria-label="close"
+        aria-keyshortcuts="Escape"
+      ></a>
+      <a
+        class="play-pause"
+        aria-controls="blueimp-gallery"
+        aria-label="play slideshow"
+        aria-keyshortcuts="Space"
+        aria-pressed="false"
+        role="button"
+      ></a>
+      <ol class="indicator"></ol></div>	<script>
+		  document.getElementById('links').onclick = function (event) {
+			event = event || window.event
+			var target = event.target || event.srcElement
+			var link = target.src ? target.parentNode : target
+			var options = { index: link, event: event }
+			var links = this.getElementsByTagName('a')
+			blueimp.Gallery(links, options)
+		  }
+	</script>
+    <script src="js/blueimp-helper.js"></script>
+    <script src="js/blueimp-gallery.js"></script>
+    <script src="js/blueimp-gallery-fullscreen.js"></script>
+    <script src="js/blueimp-gallery-indicator.js"></script>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/jquery.blueimp-gallery.js"></script><script>
+    
+$(function () {
+  'use strict'
+  
+  var gallery = blueimp.Gallery([
+  // fotoARRAY can include the images here 
+  /*%IMAGELOOP%*/
+      
+       {  title: '',    
+        type: 'image/jpeg',    
+        href: 'image1.jpg',    
+        thumbnail: 'image1.jpg' 
+       }     
+      
+  ]) 
+  
+  // linksContainer = $('#links') 
+  // is filled in the HTML directly
 
+  blueimp.Gallery(gallery, {
+      container: '#blueimp-gallery',
+      carousel: false,
+	  enableKeyboardNavigation: true,
+	  closeOnEscape: true,
+	  slideshowInterval: 3000,
+	  toggleSlideshowOnSpace: true,
+      startSlideshow: false	  
+    })  
 
-
-
-
-        <!-- jQuery CDN -->
-         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-         <!-- Bootstrap Js CDN -->
-         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-         <script type="text/javascript">
-             $(document).ready(function () {
-                 $('#sidebarCollapse').on('click', function () {
-                     $('#sidebar').toggleClass('active');
-                 });
-             });
-         </script>
+  $('#fullscreen').change(function () {
+    $('#blueimp-gallery').data('fullscreen', this.checked)
+  })
+})
+</script>
+    </div>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
 
