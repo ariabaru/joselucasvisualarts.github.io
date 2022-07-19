@@ -1,0 +1,39 @@
+.navbar-light .navbar-brand {
+  background-image: url("../../assets/img/download.png");
+  width: 13%;
+  height: 15vh;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+}
+
+.container {
+  max-width: 600px;
+  position: absolute;
+  top: 10px;
+}
+
+#jimmy {
+  max-width: 600px;
+}
+
+.divider {
+  width: 10px;
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  background: white;
+}
+
+.divider.one {
+  left: 150px;
+}
+
+.divider.two {
+  left: 300px;
+}
+
+.divider.three {
+  left: 450px;
+}
+
